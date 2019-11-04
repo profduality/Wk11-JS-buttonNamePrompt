@@ -5,5 +5,5 @@ The javascript then prompts a user for their name.
 The javascript uses the name feedback from the user to construct a greeting message.
 
 The 1st version uses an in-page <script> - see: <a href="buttonNamePrompt.html">buttonNamePrompt.html</a>
-The 2nd version uses an external / separate .js file that is referenced from the html - see: buttonNamePromptExternal.html &
-the file buttonNamePrompt.js.
+The 2nd version uses an external / separate .js file that is referenced from the html - see: <a href="buttonNamePromptExternal.html">buttonNamePromptExternal.html</a> &
+  the file <a href="buttonNamePrompt.js">buttonNamePrompt.js</a>.
