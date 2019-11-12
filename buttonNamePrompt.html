@@ -2,18 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Button Name Prompt - use of variables</title>
+    <title>Favorite Animal - Internal JS</title>
     
 </head>
 <body>
     <div class="container">
-        <button>Press me</button>
+        <button>Click Me!</button>
     </div>
     <script>
             const button = document.querySelector('button');
             button.onclick = function() {
-                let name = prompt('What is your name?');
-                alert('Hello ' + name + ', nice to see you!');
+                let animal = prompt('What is your favorite animal?'); //Asks what your favorite animal is, and stores the answer inside the variable named animal.
+				let ready = animal.toLowerCase(); //Converts the string to lowercase so anyway the user types it will work in the sentence which the page returns.
+                alert('The ' + ready + ' is a very cool favorite animal!'); //Uses the lowercase string in a basic sentence.
             }
             </script>
 </body>
